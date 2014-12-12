@@ -13,10 +13,10 @@ public class SimpleService {
 	public String sayHello(@WebParam(name="guestname") String guestname) {
 
 		if(guestname == null) {
-			return "Hola!!!";
+			return "Hi!!!";
 		}
 
-		return "Hola " + guestname + "!!!";
+		return "Hi " + guestname + "!!!";
 
 	}
 }
