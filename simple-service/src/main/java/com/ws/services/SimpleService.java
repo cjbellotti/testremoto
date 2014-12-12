@@ -13,7 +13,7 @@ public class SimpleService {
 	public String sayHello(@WebParam(name="guestname") String guestname) {
 
 		if(guestname == null) {
-			return "Hello!!!";
+			return "Falta especificar el usuario.";
 		}
 
 		return "Hello " + guestname + "!!!";
